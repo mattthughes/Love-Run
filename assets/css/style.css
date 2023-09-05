@@ -40,10 +40,24 @@ header a {
     color:inherit;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
 main {
     background-color: green;
     /* make main element take up surplus space to push footer down */
     flex: 1 0 auto;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 footer {
